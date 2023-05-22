@@ -1,0 +1,39 @@
+body
+{
+    background-color: #1b263b;
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.key
+{
+    padding: 1.5em;
+    background-color:#778da9;
+    width: 12.5%;
+}
+
+
+.keys
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+kbd
+{
+    font-size: 2rem;
+}
+
+.playing
+{
+    background-color: #e0e1dd;
+    color: red;
+}
